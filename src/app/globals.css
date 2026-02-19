@@ -30,7 +30,9 @@ body {
 
 /* Scene Card */
 .scene-card {
+  width: 100%;
   max-width: 430px;
+  /* Default for desktop, overridden in mobile query */
   margin: 0 auto;
   min-height: 100dvh;
   display: flex;
@@ -430,6 +432,53 @@ body {
 
 
 
+/* Mobile Optimization */
+@media (max-width: 600px) {
+
+  .scene-card,
+  .scene-actions,
+  .detail-panel,
+  .nav-header,
+  .list-view,
+  .loading-screen {
+    max-width: 100% !important;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .scene-card {
+    min-height: 100dvh;
+  }
+
+  /* Increase text sizes for mobile reliability */
+  .scene-location {
+    font-size: 24px;
+  }
+
+  .scene-description {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 16px;
+  }
+
+  .nav-title {
+    font-size: 18px;
+  }
+
+  .detail-section h3 {
+    font-size: 15px;
+  }
+
+  .detail-section p {
+    font-size: 16px;
+  }
+}
+
+/* Original Fade In Animations */
 @keyframes pulse {
 
   0%,
@@ -442,7 +491,6 @@ body {
   }
 }
 
-/* Fade in animation */
 @keyframes fadeIn {
   from {
     opacity: 0;

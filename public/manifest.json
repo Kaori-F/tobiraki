@@ -2,7 +2,7 @@
     "name": "トビラキ",
     "short_name": "トビラキ",
     "description": "未来の自分を、今、生きる。",
-    "start_url": "/",
+    "start_url": "/tobiraki/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",

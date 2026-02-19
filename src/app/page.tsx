@@ -232,7 +232,7 @@ export default function Home() {
       <div className="loading-screen">
         <div className="loading-content">
           <span className="loading-title">トビラキ</span>
-          <span className="loading-tagline">扉を開いて、飛ぶ。</span>
+          <span className="loading-tagline">未来の自分を、今、生きる。</span>
         </div>
       </div>
     );
@@ -267,7 +267,7 @@ export default function Home() {
           <button className="nav-icon-btn" onClick={() => setView("main")}>← 戻る</button>
           <div className="nav-brand">
             <span className="nav-title">トビラキ</span>
-            <span className="nav-tagline">扉を開いて、飛ぶ。</span>
+            <span className="nav-tagline">未来の自分を、今、生きる。</span>
           </div>
           <div style={{ width: 40 }} />
         </nav>
@@ -288,7 +288,7 @@ export default function Home() {
           <button className="nav-icon-btn" onClick={() => setView("main")}>← 戻る</button>
           <div className="nav-brand">
             <span className="nav-title">トビラキ</span>
-            <span className="nav-tagline">扉を開いて、飛ぶ。</span>
+            <span className="nav-tagline">未来の自分を、今、生きる。</span>
           </div>
           <div style={{ width: 40 }} />
         </nav>
@@ -311,7 +311,7 @@ export default function Home() {
       <nav className="nav-header">
         <div className="nav-brand">
           <span className="nav-title">トビラキ</span>
-          <span className="nav-tagline">扉を開いて、飛ぶ。</span>
+          <span className="nav-tagline">未来の自分を、今、生きる。</span>
         </div>
 
         <div className="nav-icons">

@@ -1,7 +1,7 @@
 {
-    "name": "Scene Shift",
-    "short_name": "SceneShift",
-    "description": "今日の舞台シミュレーター",
+    "name": "Tobiraki",
+    "short_name": "Tobiraki",
+    "description": "扉を開いて、飛ぶ。今日の舞台シミュレーター",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#FAFAF8",

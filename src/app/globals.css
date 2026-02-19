@@ -304,6 +304,40 @@ body {
   gap: 4px;
 }
 
+.nav-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-tagline {
+  font-size: 10px;
+  color: var(--text-secondary);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-top: -2px;
+}
+
+.loading-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.loading-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--text);
+}
+
+.loading-tagline {
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
 .nav-icon-btn {
   background: none;
   border: none;
@@ -394,12 +428,7 @@ body {
   background: var(--card-bg);
 }
 
-.loading-text {
-  font-size: 14px;
-  color: var(--text-secondary);
-  letter-spacing: 0.1em;
-  animation: pulse 1.5s ease-in-out infinite;
-}
+
 
 @keyframes pulse {
 

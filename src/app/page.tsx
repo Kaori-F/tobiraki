@@ -230,7 +230,10 @@ export default function Home() {
   if (!isLoaded || !currentScene) {
     return (
       <div className="loading-screen">
-        <span className="loading-text">Scene Shift</span>
+        <div className="loading-content">
+          <span className="loading-title">トビラキ</span>
+          <span className="loading-tagline">扉を開いて、飛ぶ。</span>
+        </div>
       </div>
     );
   }
@@ -241,7 +244,7 @@ export default function Home() {
       <>
         <nav className="nav-header">
           <button className="nav-icon-btn" onClick={handleBackToList}>← 戻る</button>
-          <span className="nav-title">Scene Shift</span>
+          <span className="nav-title">トビラキ</span>
           <div style={{ width: 40 }} />
         </nav>
         <SceneCardView
@@ -262,7 +265,10 @@ export default function Home() {
       <>
         <nav className="nav-header">
           <button className="nav-icon-btn" onClick={() => setView("main")}>← 戻る</button>
-          <span className="nav-title">Scene Shift</span>
+          <div className="nav-brand">
+            <span className="nav-title">トビラキ</span>
+            <span className="nav-tagline">扉を開いて、飛ぶ。</span>
+          </div>
           <div style={{ width: 40 }} />
         </nav>
         <ListView
@@ -280,7 +286,10 @@ export default function Home() {
       <>
         <nav className="nav-header">
           <button className="nav-icon-btn" onClick={() => setView("main")}>← 戻る</button>
-          <span className="nav-title">Scene Shift</span>
+          <div className="nav-brand">
+            <span className="nav-title">トビラキ</span>
+            <span className="nav-tagline">扉を開いて、飛ぶ。</span>
+          </div>
           <div style={{ width: 40 }} />
         </nav>
         <ListView
@@ -300,7 +309,11 @@ export default function Home() {
   return (
     <>
       <nav className="nav-header">
-        <span className="nav-title">Scene Shift</span>
+        <div className="nav-brand">
+          <span className="nav-title">トビラキ</span>
+          <span className="nav-tagline">扉を開いて、飛ぶ。</span>
+        </div>
+
         <div className="nav-icons">
           <button className="nav-icon-btn" onClick={() => setView("favorites")} title="お気に入り">♡</button>
           <button className="nav-icon-btn" onClick={() => setView("history")} title="履歴">📋</button>

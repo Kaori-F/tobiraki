@@ -2,13 +2,13 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Scene Shift — 今日の舞台シミュレーター",
+  title: "Tobiraki — 扉を開いて、飛ぶ。",
   description: "毎日ランダムに提示される世界のさまざまな場所・シーンを通じて、未来の自分をシミュレーションするツール。",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Scene Shift",
+    title: "Tobiraki",
   },
 };
 

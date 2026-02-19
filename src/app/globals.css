@@ -432,8 +432,9 @@ body {
 
 
 
-/* Mobile Optimization */
-@media (max-width: 600px) {
+/* Mobile Optimization & PWA Standalone */
+@media (max-width: 800px),
+(display-mode: standalone) {
 
   .scene-card,
   .scene-actions,
@@ -452,16 +453,16 @@ body {
 
   /* Increase text sizes for mobile reliability */
   .scene-location {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .scene-description {
-    font-size: 17px;
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 1.9;
   }
 
   .btn {
-    font-size: 16px;
+    font-size: 17px;
     padding: 16px;
   }
 
@@ -474,7 +475,7 @@ body {
   }
 
   .detail-section p {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 
